@@ -1,10 +1,18 @@
 <div class="main">
 
     Multiplicateur : {{ multiplicateur }} <br>
-    <button mat-raised-button color="primary">Bonbon bleu</button>
-    <button mat-raised-button color="warn">Bonbon rouge</button>
+    <button mat-raised-button color="primary" (click)="onClickBtnBonbon(0)">Bonbon bleu</button>
+    <button mat-raised-button color="warn" (click)="onClickBtnBonbon(1)">Bonbon rouge</button>
 
     <br>
-    Bonbons verts : {{ bbverts }}
+    Bonbons en stock : {{ bbStock }}
+    <br> 
+    <button mat-raised-button (click)="mettreEnBanque()">Mettre les bonbons en banque</button>
+    <br>
+    Ma banque : {{ banque }}
+
+    <br> <br>
+    Stats :  <br>
+    Bleus : {{ prtBleu+"%" }} - Rouge : {{ prtRouge+"%" }}
 
 </div>

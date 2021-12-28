@@ -17,7 +17,6 @@ import { LeaderboardBodyComponent } from './leaderboard-body/leaderboard-body.co
 
 // Routes : 
 const appRoutes: Routes = [
-  { path: 'game', component: GameBodyComponent },
   { path: 'leaderboard', component: LeaderboardBodyComponent },
   { path: '', component: GameBodyComponent }
 ];
