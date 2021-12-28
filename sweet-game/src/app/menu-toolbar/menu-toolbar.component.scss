@@ -1,0 +1,23 @@
+
+mat-toolbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    cursor:default;
+    color:#000000
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+a:visited{
+    color:#000000
+}
+
+span{
+    flex: 1 1 auto;
+}
