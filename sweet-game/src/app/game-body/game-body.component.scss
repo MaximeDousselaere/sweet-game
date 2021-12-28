@@ -2,4 +2,25 @@ div.main{
     margin-top:20px;
     margin-left:10%;
     margin-right:10%;
+    
+}
+
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+div.jeu{
+    grid-column: 1 / 2;
+}
+
+div.user{
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+
+div.stats{
+    
+  
 }
